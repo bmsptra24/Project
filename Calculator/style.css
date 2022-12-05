@@ -1,0 +1,30 @@
+.body{
+    font-size: large;
+}
+
+.tombol{
+    background-color: cornsilk;
+}
+
+#button{
+    background-color: cornsilk;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: large;
+}
+
+#hasil{
+    font-size: xx-large;
+    margin: 10px;
+}
+
+#kalkulator{
+    background: gold;
+    width: auto;
+    padding: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

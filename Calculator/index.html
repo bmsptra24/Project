@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="kalkulator">
+        <table border="1" cellpadding="1" cellspacing="10">
+            <tr">
+                <td class="tombol" colspan="4" id="button" align="right"><p id="hasil"></p></td> 
+            </tr>
+            <tr>
+                <th onclick="c()" class="tombol" colspan="2"><button type="button" id="button" id="c">C</button></th>
+                <th class="tombol"><button onclick="kali()" type="button" id="button" id="kali">X</button></th>
+                <th class="tombol"><button onclick="bagi()" type="button" id="button" id="bagi">/</button></th>
+            </tr>
+            <tr>
+                <th class="tombol"><button onclick="tujuh()" type="button" id="button" id="tujuh">7</button></th>
+                <th class="tombol"><button onclick="delapan()" type="button" id="button" id="delapan">8</button></th>
+                <th class="tombol"><button onclick="sembilan()" type="button" id="button" id="sembilan">9</button></th>
+                <th class="tombol"><button onclick="tambah()" type="button" id="button" id="tambah">+</button></th>
+            </tr>
+            <tr>
+                <th class="tombol"><button onclick="empat()" type="button" id="button" id="empat">4</button></th>
+                <th class="tombol"><button onclick="lima()" type="button" id="button" id="lima">5</button></th>
+                <th class="tombol"><button onclick="enam()" type="button" id="button" id="enam">6</button></th>
+                <th class="tombol"><button onclick="kurang()" type="button" id="button" id="kurang">-</button></th>
+            </tr>
+            <tr>
+                <th class="tombol"><button onclick="satu()" type="button" id="button" id="satu">1</button></th>
+                <th class="tombol"><button onclick="dua()" type="button" id="button" id="dua">2</button></th>
+                <th class="tombol"><button onclick="tiga()" type="button" id="button" id="tiga">3</button></th>
+                <th class="tombol" rowspan="2"><button onclick="samaDengan()" type="button" id="button" id="samaDengan">=</button></th>
+            </tr>
+            <tr>
+                <th class="tombol" colspan="2"><button onclick="nol()" type="button" id="button" id="nol">0</button></th>
+                <th class="tombol"><button onclick="titik()" type="button" id="button" id="titik">.</button></th>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
