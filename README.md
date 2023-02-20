@@ -12,4 +12,4 @@ This is a simple calculator program that I made using basic JavaScript.
 
 3. And you can use the calculator!
 
-![image](https://user-images.githubusercontent.com/109858732/219987032-95345fc6-84cf-4daa-a5bc-761d85850176.png)
+![image](https://user-images.githubusercontent.com/109858732/219988423-0e55c644-5a2b-4ea0-9ab7-b626a24441ab.png)
